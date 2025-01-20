@@ -570,6 +570,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "arduino:Sparkfun_Pro_Micro"
 			(pin_names
 				(offset 1.016)
@@ -3924,7 +4006,7 @@
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 224.79 86.36 180)
+		(at 224.79 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3934,7 +4016,7 @@
 		)
 		(uuid "39e1fcf1-a137-4cf1-8e60-8f550f5f6281")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.9667 86.36 0)
+			(at 216.9667 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +4050,7 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 224.79 83.82 180)
+		(at 224.79 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3978,7 +4060,7 @@
 		)
 		(uuid "4962c69a-09f5-4067-9a45-7cededeb46ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.9667 83.82 0)
+			(at 216.9667 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4116,7 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 224.79 76.2 180)
+		(at 224.79 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4044,7 +4126,7 @@
 		)
 		(uuid "66c8d9b2-8a5b-4cfd-b9d0-e169c10a9a2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.9667 76.2 0)
+			(at 216.9667 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4402,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 224.79 78.74 180)
+		(at 224.79 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4330,7 +4412,7 @@
 		)
 		(uuid "d701b2cd-3c1a-4b92-aeb5-d20797dc10ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.9667 78.74 0)
+			(at 216.9667 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4468,7 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 224.79 73.66 180)
+		(at 224.79 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4396,7 +4478,7 @@
 		)
 		(uuid "e47867b5-24e8-42bc-8a73-0688b7a3c0cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.9667 73.66 0)
+			(at 216.9667 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4490,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 224.79 71.12 180)
+		(at 224.79 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4418,7 +4500,7 @@
 		)
 		(uuid "e4956811-b3c3-49d4-9f28-e43df4107512")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.5434 71.12 0)
+			(at 216.5434 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4512,7 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 224.79 81.28 180)
+		(at 224.79 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4440,7 +4522,7 @@
 		)
 		(uuid "e7bbcbe0-7235-43fd-a87c-961c0fbb14be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.9667 81.28 0)
+			(at 216.9667 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,6 +7805,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 107.95 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61b7c6f2-e59a-4986-8183-68062310167a")
+		(property "Reference" "H2"
+			(at 227.33 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shrimple"
+				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 111.76 88.9 90)
 		(unit 1)
@@ -7961,6 +8107,70 @@
 			(project "shrimple"
 				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
 					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 128.27 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "673d4983-fd69-4c1f-9ecf-7719782c1bd3")
+		(property "Reference" "H6"
+			(at 227.33 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
+			(at 224.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shrimple"
+				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -9504,6 +9714,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 123.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9677da08-98cd-4525-bab2-a3501b9b110e")
+		(property "Reference" "H5"
+			(at 227.33 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shrimple"
+				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 66.04 106.68 90)
 		(unit 1)
@@ -9856,6 +10130,70 @@
 			(project "shrimple"
 				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
 					(reference "MX18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6bd9e2f-a588-4448-9022-933e1aea1d5d")
+		(property "Reference" "H1"
+			(at 227.33 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12324,6 +12662,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 118.11 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dddf6bac-35d5-4b5e-951f-17a90878aabc")
+		(property "Reference" "H4"
+			(at 227.33 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shrimple"
+				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MX_Alps_Hybrid:MX-NoLED")
 		(at 184.15 135.89 0)
 		(unit 1)
@@ -12786,6 +13188,70 @@
 			(project "shrimple"
 				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 113.03 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e675711d-cfce-4bea-8ee8-ff11928fa4de")
+		(property "Reference" "H3"
+			(at 227.33 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "shrimple"
+				(path "/5b0494ec-95b7-4185-a6d7-f6f1e0513c87"
+					(reference "H3")
 					(unit 1)
 				)
 			)
