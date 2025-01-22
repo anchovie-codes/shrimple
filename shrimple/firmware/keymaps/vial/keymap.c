@@ -4,7 +4,7 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-	[0] = LAYOUT(
+	[layer_0] = LAYOUT(
 		QK_GESC, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,
 		KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC,
 		KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
@@ -13,7 +13,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_BSPC, KC_SPC
 	),
 
-	[1] = LAYOUT(
+	[layer_1] = LAYOUT(
 		KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,
 		KC_TRNS, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL, 
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
@@ -22,16 +22,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_DEL,  KC_TRNS
 	),
 
-	[2] = LAYOUT(
+	[layer_2] = LAYOUT(
 		KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,  KC_F12,
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_MPLY, KC_TRNS, KC_TRNS,
 		CG_LSWP, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-		CG_LNRM, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+		CG_LNRM, KC_TRNS, KC_TRNS, KC_MPRV, KC_VOLU, KC_VOLD, KC_MNXT,
 		GU_TOGG, UG_TOGG
 	),
 
-	[3] = LAYOUT(
+	[layer_3] = LAYOUT(
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_TRNS, KC_TRNS
 	),
 
-	[4] = LAYOUT(
+	[layer_4] = LAYOUT(
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_TRNS, KC_TRNS
 	),
 
-	[5] = LAYOUT(
+	[layer_5] = LAYOUT(
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
@@ -60,43 +60,43 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
-const rgblight_segment_t PROGMEM 0[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, HSV_ORANGE},       // Light status LED orange on layer 0
+const rgblight_segment_t PROGMEM layer_0[] = RGBLIGHT_LAYER_SEGMENTS(
+    {0, HSV_ORANGE},       // Light status LED on layer 0
 
 );
 
-const rgblight_segment_t PROGMEM 1[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, HSV_GOLD},       // Light status LED orange on layer 1
+const rgblight_segment_t PROGMEM layer_1[] = RGBLIGHT_LAYER_SEGMENTS(
+    {0, HSV_YELLOW},       // Light status LED on layer 1
 
 );
 
-const rgblight_segment_t PROGMEM 2[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, HSV_GREEN},       // Light status LED orange on layer 2
+const rgblight_segment_t PROGMEM layer_2[] = RGBLIGHT_LAYER_SEGMENTS(
+    {0, HSV_GREEN},       // Light status LED on layer 2
 
 );
 
-const rgblight_segment_t PROGMEM 3[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, HSV_TURQUIOSE},       // Light status LED orange on layer 3
+const rgblight_segment_t PROGMEM layer_3[] = RGBLIGHT_LAYER_SEGMENTS(
+    {0, HSV_TURQUIOSE},       // Light status LED on layer 3
 
 );
 
-const rgblight_segment_t PROGMEM 4[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, HSV_BLUE},       // Light status LED orange on layer 4
+const rgblight_segment_t PROGMEM layer_4[] = RGBLIGHT_LAYER_SEGMENTS(
+    {0, HSV_BLUE},       // Light status LED on layer 4
 
 );
 
-const rgblight_segment_t PROGMEM 5[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, HSV_PURPLE},       // Light status LED orange on layer 5
+const rgblight_segment_t PROGMEM layer_5[] = RGBLIGHT_LAYER_SEGMENTS(
+    {0, HSV_PURPLE},       // Light status LED on layer 5
 
 );
 
 const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
-    0,
-    1,
-    2,
-    3,
-	4,
-	5
+    layer_0,
+    layer_1,
+    layer_2,
+    layer_3,
+	layer_4,
+	layer_5
 );
 
 void keyboard_post_init_user(void) {
