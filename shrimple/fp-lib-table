@@ -3,4 +3,5 @@
   (lib (name "hybrids")(type "KiCad")(uri "${KIPRJMOD}/footprints/MX_Alps_Hybrid.pretty")(options "")(descr ""))
   (lib (name "arduino")(type "KiCad")(uri "${KIPRJMOD}/footprints/Arduino.pretty")(options "")(descr ""))
   (lib (name "ws2812")(type "KiCad")(uri "${KIPRJMOD}/footprints/WS2812B.pretty")(options "")(descr ""))
+  (lib (name "rp2040")(type "KiCad")(uri "${KIPRJMOD}/footprints/pro_micro_rp2040.pretty")(options "")(descr ""))
 )
