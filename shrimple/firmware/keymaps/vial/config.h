@@ -7,8 +7,8 @@
 #define VIAL_UNLOCK_COMBO_ROWS {0, 4, 4}
 #define VIAL_UNLOCK_COMBO_COLS {0, 4, 6}
 
-#define WS2812_DI_PIN {20}
-#define RGBLIGHT_LED_COUNT {1}
+#define WS2812_DI_PIN 29
+#define RGBLIGHT_LED_COUNT 1
 #define RGBLIGHT_LAYERS
 
 #define HSV_AZURE       132, 102, 255

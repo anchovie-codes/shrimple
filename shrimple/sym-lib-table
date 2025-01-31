@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "arduino")(type "Legacy")(uri "${KIPRJMOD}/footprints/Arduino.lib")(options "")(descr ""))
   (lib (name "ws2182")(type "Legacy")(uri "${KIPRJMOD}/footprints/WS2812B.pretty/Schematic-Symbol/ws2812b.lib")(options "")(descr ""))
+  (lib (name "promicro")(type "KiCad")(uri "${KIPRJMOD}/footprints/pro_micro_rp2040.kicad_sym")(options "")(descr ""))
 )
