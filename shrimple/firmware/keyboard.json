@@ -1,5 +1,5 @@
 {
-    "manufacturer": "anchovie",
+    "manufacturer": "SFK",
     "keyboard_name": "Shrimple",
     "maintainer": "anchovie",
     "processor": "RP2040",
@@ -17,8 +17,8 @@
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP26", "GP22", "GP20", "GP23", "GP21", "GP0"],
-        "rows": ["GP9", "GP27", "GP28", "GP1", "GP2"]
+        "cols": ["GP29", "GP28", "GP27", "GP26", "GP22", "GP20", "GP0", "GP1", "GP2", "GP3", "GP4", "GP9"],
+        "rows": ["GP23", "GP5", "GP6", "GP8", "GP21"]
     },
     "url": "https://github.com/anchovie-codes/shrimple",
     "layouts": {
@@ -43,7 +43,7 @@
                 { "matrix": [1, 10], "x": 10, "y": 1.25 },
                 { "matrix": [1, 11], "x": 11, "y": 1.25 },
                 { "matrix": [0, 11], "x": 12, "y": 1.25 },
-                { "matrix": [2, 0], "w": 1.5, "x": 0, "y": 2.25 },
+                { "matrix": [2, 0], "w": 1.25, "x": 0, "y": 2.25 }, 
                 { "matrix": [2, 1], "x": 1.5, "y": 2.25 },
                 { "matrix": [2, 2], "x": 2.5, "y": 2.25 },
                 { "matrix": [2, 3], "x": 3.5, "y": 2.25 },
@@ -54,7 +54,7 @@
                 { "matrix": [2, 8], "x": 8.5, "y": 2.25 },
                 { "matrix": [2, 9], "x": 9.5, "y": 2.25 },
                 { "matrix": [2, 10], "x": 10.5, "y": 2.25 },
-                { "matrix": [2, 11], "w": 1.5, "x": 11.5, "y": 2.25 },
+                { "matrix": [2, 11], "w": 1.75, "x": 11.5, "y": 2.25 },
                 { "matrix": [3, 0], "w": 1.75, "x": 0, "y": 3.25 },
                 { "matrix": [3, 1], "x": 1.75, "y": 3.25 },
                 { "matrix": [3, 2], "x": 2.75, "y": 3.25 },

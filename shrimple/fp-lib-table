@@ -4,4 +4,6 @@
   (lib (name "arduino")(type "KiCad")(uri "${KIPRJMOD}/footprints/Arduino.pretty")(options "")(descr ""))
   (lib (name "ws2812")(type "KiCad")(uri "${KIPRJMOD}/footprints/WS2812B.pretty")(options "")(descr ""))
   (lib (name "rp2040")(type "KiCad")(uri "${KIPRJMOD}/footprints/pro_micro_rp2040.pretty")(options "")(descr ""))
+  (lib (name "marbastlib")(type "KiCad")(uri "${KIPRJMOD}/footprints/marbastlib-mx.pretty")(options "")(descr ""))
+  (lib (name "MX_V2")(type "KiCad")(uri "${KIPRJMOD}/footprints/MX_Solderable.pretty")(options "")(descr ""))
 )
